@@ -10,7 +10,6 @@ import AlamofireImage
 
 class MoviesViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
 
-    // testing
     @IBOutlet weak var tableView: UITableView!
     
     var movies = [[String:Any]]()
